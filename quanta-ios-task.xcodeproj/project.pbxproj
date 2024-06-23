@@ -11,6 +11,14 @@
 		B85F12132C26189000246A71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F12122C26189000246A71 /* ContentView.swift */; };
 		B85F12152C26189200246A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85F12142C26189200246A71 /* Assets.xcassets */; };
 		B85F12182C26189200246A71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85F12172C26189200246A71 /* Preview Assets.xcassets */; };
+		B85F12312C2631D600246A71 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F12302C2631D600246A71 /* Photo.swift */; };
+		B85F12332C26320A00246A71 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F12322C26320A00246A71 /* PhotoViewModel.swift */; };
+		B85F12362C2633E700246A71 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B85F12352C2633E700246A71 /* SDWebImage */; };
+		B85F12382C2633E700246A71 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B85F12372C2633E700246A71 /* SDWebImageMapKit */; };
+		B85F123A2C26341E00246A71 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F12392C26341E00246A71 /* AsyncImage.swift */; };
+		B85F123C2C26345D00246A71 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F123B2C26345D00246A71 /* ImageCache.swift */; };
+		B85F123E2C26348900246A71 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F123D2C26348900246A71 /* ImageLoader.swift */; };
+		B85F12402C26350600246A71 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F123F2C26350600246A71 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,12 @@
 		B85F12122C26189000246A71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B85F12142C26189200246A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B85F12172C26189200246A71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B85F12302C2631D600246A71 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		B85F12322C26320A00246A71 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		B85F12392C26341E00246A71 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		B85F123B2C26345D00246A71 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		B85F123D2C26348900246A71 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B85F123F2C26350600246A71 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85F12382C2633E700246A71 /* SDWebImageMapKit in Frameworks */,
+				B85F12362C2633E700246A71 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				B85F12102C26189000246A71 /* quanta_ios_taskApp.swift */,
-				B85F12122C26189000246A71 /* ContentView.swift */,
+				B85F122D2C26317800246A71 /* ViewModel */,
+				B85F122E2C26318800246A71 /* View */,
+				B85F122F2C2631AC00246A71 /* Model */,
 				B85F12142C26189200246A71 /* Assets.xcassets */,
 				B85F12162C26189200246A71 /* Preview Content */,
 			);
@@ -65,6 +83,34 @@
 				B85F12172C26189200246A71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B85F122D2C26317800246A71 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B85F12322C26320A00246A71 /* PhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B85F122E2C26318800246A71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B85F12122C26189000246A71 /* ContentView.swift */,
+				B85F123F2C26350600246A71 /* SearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B85F122F2C2631AC00246A71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B85F12302C2631D600246A71 /* Photo.swift */,
+				B85F12392C26341E00246A71 /* AsyncImage.swift */,
+				B85F123B2C26345D00246A71 /* ImageCache.swift */,
+				B85F123D2C26348900246A71 /* ImageLoader.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +129,10 @@
 			dependencies = (
 			);
 			name = "quanta-ios-task";
+			packageProductDependencies = (
+				B85F12352C2633E700246A71 /* SDWebImage */,
+				B85F12372C2633E700246A71 /* SDWebImageMapKit */,
+			);
 			productName = "quanta-ios-task";
 			productReference = B85F120D2C26189000246A71 /* quanta-ios-task.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +161,9 @@
 				Base,
 			);
 			mainGroup = B85F12042C26189000246A71;
+			packageReferences = (
+				B85F12342C2633E700246A71 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = B85F120E2C26189000246A71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85F123E2C26348900246A71 /* ImageLoader.swift in Sources */,
+				B85F123C2C26345D00246A71 /* ImageCache.swift in Sources */,
+				B85F123A2C26341E00246A71 /* AsyncImage.swift in Sources */,
+				B85F12312C2631D600246A71 /* Photo.swift in Sources */,
+				B85F12332C26320A00246A71 /* PhotoViewModel.swift in Sources */,
+				B85F12402C26350600246A71 /* SearchBar.swift in Sources */,
 				B85F12132C26189000246A71 /* ContentView.swift in Sources */,
 				B85F12112C26189000246A71 /* quanta_ios_taskApp.swift in Sources */,
 			);
@@ -279,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +403,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B85F12342C2633E700246A71 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B85F12352C2633E700246A71 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B85F12342C2633E700246A71 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B85F12372C2633E700246A71 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B85F12342C2633E700246A71 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B85F12052C26189000246A71 /* Project object */;
 }
