@@ -33,7 +33,7 @@ cd quanta-ios-task
 
 ## Install Dependencies:
 
-This project uses SDWebImageSwiftUI for loading and caching images. Ensure you have CocoaPods or Swift Package Manager set up to install this dependency.
+This project uses SDWebImage for loading and caching images. Ensure you have CocoaPods or Swift Package Manager set up to install this dependency.
 
 ## Build and Run:
 
