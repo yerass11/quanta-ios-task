@@ -27,7 +27,7 @@ iOS 16.0 <= x
 ## Steps
 Clone the Repository:
 ```
-git clone <https://github.com/yerass11/quanta-ios-task>
+git clone https://github.com/yerass11/quanta-ios-task.git
 cd quanta-ios-task
 ```
 
