@@ -4,6 +4,13 @@
 
 This project is a photo viewing application designed for iOS devices, including iPhones and iPads, using SwiftUI. The app displays a collection of photos fetched from an internet API and is optimized for handling a large number of photos. It supports different device orientations and provides a smooth user experience through features like photo enlargement, pull-to-refresh, caching, and pagination.
 
+## Screenshots
+
+<
+    <img src="https://github.com/yerass11/quanta-ios-task/blob/main/screen/vert.png" alt="Portrait" width="30%"/>
+    <img src="https://github.com/yerass11/quanta-ios-task/blob/main/screen/hor.png" alt="Landscape" width="31%"/>
+      <img src="https://github.com/yerass11/quanta-ios-task/blob/main/screen/hor2.png" alt="Landscape when photo opened" width="31%"/>
+
 ## Requirements
 
 Minimum iOS Version: 16.0
@@ -21,7 +28,9 @@ The app should work on different devices (iPhone and iPad)
 ## How to Run the Project
 
 Prerequisites
+
 Xcode 14 <= x
+
 iOS 16.0 <= x
 
 ## Steps
