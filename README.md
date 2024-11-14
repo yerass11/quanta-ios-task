@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a photo viewing application designed for iOS devices, including iPhones and iPads, using SwiftUI. The app displays a collection of photos fetched from an internet API and is optimized for handling a large number of photos. It supports different device orientations and provides a smooth user experience through features like photo enlargement, pull-to-refresh, caching, and pagination.
+This project is a photo viewing application designed for iOS devices, including iPhones and iPads, using SwiftUI. The app displays a collection of photos fetched from an internet API and is optimized for handling a **large number** of photos. It supports different device orientations and provides a smooth user experience through features like photo enlargement, pull-to-refresh, caching, and pagination.
 
 ## Screenshots
 
